@@ -142,5 +142,6 @@ music.addEventListener('timeupdate', updateProgress);
 // Play the next song when the song ends
 music.addEventListener('ended', nextSong);
 
+music.addEventListener('ended' , nextSong);
 // Click on progress bar to search through the song
 progressContainer.addEventListener('click', setProgressBar);
